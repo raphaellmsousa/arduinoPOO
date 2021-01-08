@@ -54,10 +54,12 @@ void Pisca::blink(void)
   /*
   Blinking method used to activate and deactivate a single led.
   */
+  
   digitalWrite(pin_, HIGH);
   delay(t_on);
   digitalWrite(pin_, LOW);
   delay(t_off);
+  
 }
 
 //-----------------------------------------------------------------------
