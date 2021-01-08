@@ -23,7 +23,8 @@ class Relay
     private:
 
         int pin, pin1, pin2, pin3, pin4;
-        bool pinState = 0;
+        bool pinState = 0; //This flag is gonna be used to monitor pin state 
+                            //for toggle function
 };
 
 #endif // RELAY_H 
