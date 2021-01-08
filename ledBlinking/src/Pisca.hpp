@@ -13,7 +13,7 @@ class Pisca
 
         Pisca(const int pin); // Construtor
 
-        //Métodos da classe
+        //Methods of the class
         void setPeriod(const int periodo);
         void setDutyCycle(const float duty);
 
